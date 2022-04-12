@@ -18,7 +18,7 @@ knowledge about IR-remotes, asynchronous serial communication, PWM, C/C++ progra
 
 The connections between the components are shown above. The infrared signal is received and demodulated by the TL1838. The demodulated signal is fed into the first Arduino via standard IO pins (yellow wire). The Arduino on the left side is responsible for decoding the demodulated signal, which is achieved by using an IR remote library. After decoding, a command is sent to the second Arduino via serial communication (white and blue wire). It is important that Tx and Rx are connected to the opposite pin on the other microcontroller.
 
-The Arduino on the right side is responsible for generating a certain signal depending on the received instruction. This is done with the tone() function. This function generates a PWM signal with 50% duty cycle and variable frequency. This signal is sent via standard IO pins (green wire). The stepper motor is driven forward by the stepper motor driver every time a rising edge is detected. The frequencies used are not randomly selected. Twelve keys on the remote control are assigned to the corresponding keys of an octave of piano notes.
+The Arduino on the right side is responsible for generating a certain signal depending on the received instruction. This is done with the tone() function. This function generates a PWM signal with 50% duty cycle and variable frequency. This signal is sent via standard IO pins (green wire). The stepper motor is driven forward by the stepper motor driver whenever a rising edge is detected. The frequencies used are not randomly selected. Twelve keys on the remote control are assigned to the corresponding keys of an octave of piano notes.
 
 ## Demo
 <div align="center">
