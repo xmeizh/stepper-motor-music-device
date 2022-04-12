@@ -2,7 +2,6 @@
 *   IR Music Device                               *
 *   Decoding of the received commands             *
 *   Transmitter side of serial communication      *
-*   Version 0.1                                   *
 **************************************************/
 
 #include <Arduino.h>

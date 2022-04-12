@@ -2,7 +2,6 @@
 *   IR Music Device                               *
 *   Receiver side of serial communication         *
 *   Generation of the PWM signal                  *
-*   Version 0.1                                   *
 **************************************************/
 
 #include <Arduino.h>
