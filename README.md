@@ -9,7 +9,7 @@ In this project, I use two Arduino Nano Micro-controllers, one of which is suppo
 Visual Studio Code with PlatformIO (suggested) or Arduino IDE.
 
 ### Other requirements
-knowledge about IR-remotes, asynchronous serial communication, PWM, C/C++ programming, the GPIO Pins of micro-controllers.
+knowledge about IR-remotes, asynchronous serial communication, PWM, C/C++ programming, the GPIO Pins of microcontrollers.
 
 ## Hardware Setup
 <p align="center"> 
