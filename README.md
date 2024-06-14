@@ -1,5 +1,5 @@
 # Stepper Motor Music Device With Remote Control 
-In this project, I use two Arduino Nano Micro-controllers, one of which is supposed to receive the infrared signal from the TV-remote and send a corresponding command based on the received signal to the second microcontroller via serial communication. Afterward, the second Arduino will send a signal to a stepper motor driver so that it plays a sound with a particular frequency.
+In this project, two Arduino Nano Micro-controllers are used, one of which is supposed to receive the infrared signal from the TV-remote and send a corresponding command based on the received signal to the second microcontroller via serial communication. Afterward, the second Arduino will send a signal to a stepper motor driver so that it plays a sound with a particular frequency.
 
 ## Requirements
 ### Hardware requirements
